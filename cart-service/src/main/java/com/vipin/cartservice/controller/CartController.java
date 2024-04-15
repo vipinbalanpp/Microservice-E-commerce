@@ -1,12 +1,8 @@
 package com.vipin.cartservice.controller;
-
-
-import com.vipin.cartservice.client.ProductServiceClient;
 import com.vipin.cartservice.dto.ProductDto;
 import com.vipin.cartservice.service.CartService;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
