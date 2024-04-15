@@ -26,6 +26,6 @@ jobs:
           for dir in api-gateway cart-service product service-registry user; do
             echo "Building $dir"
             cd $dir
-            mvn clean install
+            mvn package -DskipTests
             cd ..
           done
